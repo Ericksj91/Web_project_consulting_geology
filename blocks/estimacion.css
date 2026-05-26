@@ -1,0 +1,13 @@
+.estimación {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #e8f5e9;
+}
+
+.estimación__image {
+  max-width: 500px;
+  height: auto;
+  margin-top: 20px;
+}
