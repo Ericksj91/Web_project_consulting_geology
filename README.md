@@ -1,1 +1,1 @@
-Proyecto Geoce: Proyecto para crear una pagina web de consultoria geológica 
+# Web Project Consulting Geology

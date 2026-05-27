@@ -1,8 +1,10 @@
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/nav.css);
+@import url(../blocks/logueo.css);
 @import url(../blocks/modelamiento.css);
 @import url(../blocks/estimacion.css);
 @import url(../blocks/geoquimica.css);
 @import url(../blocks/contactos.css);
 @import url(../blocks/footer.css);
+@import url(../vendor/fonts.css);
