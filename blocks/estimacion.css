@@ -1,13 +1,58 @@
-.estimación {
+.estimacion {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  background-color: #e8f5e9;
+  /*background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../images/fondo_modelamiento.png");*/
+  background-size: cover;
+  background-position: center;
+  gap: 40px;
 }
 
-.estimación__image {
-  max-width: 500px;
-  height: auto;
-  margin-top: 20px;
+.estimacion__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.estimacion__content {
+  max-width: 600px;
+}
+
+.estimacion__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 50px;
+  line-height: 1.04;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.estimacion__paragraph {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+
+.estimacion__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.estimacion__images img {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+  object-fit: cover;
 }

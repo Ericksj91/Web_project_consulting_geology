@@ -26,6 +26,7 @@
   font-size: 50px;
   line-height: 1.04;
   margin-bottom: 20px;
+  color: #1f1f1f;
 }
 .logueo__subtitle {
   font-family: "Inter", "Arial", sans-serif;
@@ -34,7 +35,7 @@
   font-size: 25px;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #2b2b2b;
+  color: #1f1f1f;
 }
 
 .logueo__paragraph {
@@ -43,12 +44,17 @@
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
-  color: #555;
+  color: #2f2f2f;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
 }
 
 .logueo__images {
   display: flex;
   gap: 15px;
+}
+
+.logueo__images img:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
 
 .logueo__images img {
