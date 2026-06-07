@@ -1,7 +1,91 @@
 .contactos {
+  padding: 40px 30px;
+  text-align: center;
+  background: linear-gradient(180deg, #8e95a3 0%, #7f8794 100%);
+}
+
+.contactos__title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contactos__paragraph {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+  color: whitesmoke;
+}
+
+.contactos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.contactos__card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contactos__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.contactos__card-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.contactos__card-title {
+  margin-bottom: 10px;
+}
+
+.contactos__card-info {
+  color: #555;
+}
+
+.contactos__action {
+  text-align: center;
+}
+
+.contactos__action-title {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contactos__action-buttons {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contactos__action-button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: white;
+  /* border: 2px solid #1f1f20; */
+  display: flex;
   align-items: center;
-  padding: 20px;
-  background-color: #fff3e0;
+  gap: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contactos__action-button:hover {
+  background-color: #3d79d3;
+}
+
+.contactos__action-button i {
+  font-size: 1.1rem;
 }

@@ -2,9 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background:
-    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../images/fondo_modelamiento.png");*/
+  background: url("../images/fondo_geoquimica.png");
   background-size: cover;
   background-position: center;
   gap: 40px;
@@ -28,7 +26,7 @@
   font-size: 50px;
   line-height: 1.04;
   margin-bottom: 20px;
-  color: black;
+  color: white;
 }
 
 .geoquimica__paragraph {
@@ -37,7 +35,7 @@
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
-  color: black;
+  color: whitesmoke;
 }
 
 .geoquimica__images {
@@ -55,4 +53,50 @@
   border-radius: 10px;
   border: none;
   object-fit: cover;
+}
+
+.geoquimica__images img:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.geoquimica__videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0 0 80px;
+  max-width: 2200px;
+}
+
+.geoquimica__videos iframe:hover {
+  box-shadow: 0 0 20px rgba(201, 168, 106, 0.8);
+}
+
+.geoquimica__videos iframe {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.geoquimica__separador {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /*margin: 50px 0 30px;*/
+  width: 100%;
+}
+
+.geoquimica__separador::before,
+.geoquimica__separador::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #c9a86a;
+}
+
+.geoquimica__separador span {
+  color: #c9a86a;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
