@@ -26,7 +26,7 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo_geoce.png"
+            src="./images/logo_geoce_gray.png"
             alt="logo geoce consulting"
             class="nav__logo"
           />
@@ -60,7 +60,7 @@
               >
             </li>
             <li>
-              <button class="nav__link">Agenda tu consulta</button>
+              <button class="nav__button">Agenda tu consulta</button>
             </li>
           </ul>
         </nav>
@@ -77,7 +77,7 @@
           <div class="header__grid">
             <div class="header__card">
               <h3 class="header__card-title">Logueo</h3>
-              <p>
+              <p class="header__card-paragraph">
                 Caracterización geológica y geotécnica de testigos de
                 perforación y macizos rocosos.
               </p>
@@ -85,7 +85,7 @@
             </div>
             <div class="header__card">
               <h3 class="header__card-title">Modelamiento</h3>
-              <p>
+              <p class="header__card-paragraph">
                 Desarrollo de modelos geológicos 3D para la evaluación y
                 optimización de proyectos mineros.
               </p>
@@ -94,7 +94,7 @@
 
             <div class="header__card">
               <h3 class="header__card-title">Estimación</h3>
-              <p>
+              <p class="header__card-paragraph">
                 Evaluación de recursos minerales y estimación de reservas
                 utilizando metodologías geológicas y estadísticas.
               </p>
@@ -102,7 +102,7 @@
             </div>
             <div class="header__card">
               <h3 class="header__card-title">Geoquímica</h3>
-              <p>
+              <p class="header__card-paragraph">
                 Análisis geoquímicos de muestras para la evaluación de recursos
                 minerales y la identificación de procesos geológicos.
               </p>
@@ -110,13 +110,68 @@
             </div>
             <div class="header__card">
               <h3 class="header__card-title">Planeamiento Minero</h3>
-              <p>
+              <p class="header__card-paragraph">
                 Caracterización geológica y geotécnica de testigos de
                 perforación y macizos rocosos.
               </p>
               <a href="#planeamiento__minero" class="header__card-link">
                 Explorar →
               </a>
+            </div>
+          </div>
+          <div class="header__about-us" id="about-us">
+            <h2 class="header__about-us-title">Sobre Nosotros</h2>
+            <p class="header__about-us-paragraph">
+              Geoce Capacitación y Servicios Geológicos es una empresa dedicada
+              a proporcionar soluciones geológicas de alta calidad en Ecuador.
+              Nuestro equipo de expertos trabaja con excelencia para ofrecer
+              servicios especializados en exploración minera, cartografía y
+              asesoría técnica.
+            </p>
+          </div>
+        </div>
+        <div class="header__advantages">
+          <h2 class="header__advantages-title">¿Por qué Geoce?</h2>
+          <div class="header__advantages-grid">
+            <div class="header__advantages-card">
+              <i
+                class="fa-solid fa-circle-check header__advantages-card-icon"
+              ></i>
+              <h3 class="header__advantages-card-title">
+                Experiencia en exploración minera
+              </h3>
+            </div>
+            <div class="header__advantages-card">
+              <i
+                class="fa-solid fa-circle-check header__advantages-card-icon"
+              ></i>
+              <h3 class="header__advantages-card-title">
+                Personal especializado
+              </h3>
+            </div>
+            <div class="header__advantages-card">
+              <i
+                class="fa-solid fa-circle-check header__advantages-card-icon"
+              ></i>
+              <h3 class="header__advantages-card-title">
+                Software geológico avanzado
+              </h3>
+            </div>
+            <div class="header__advantages-card">
+              <i
+                class="fa-solid fa-circle-check header__advantages-card-icon"
+              ></i>
+              <h3 class="header__advantages-card-title">
+                Informes técnicos confiables
+              </h3>
+            </div>
+            <div class="header__advantages-card">
+              <i
+                class="fa-solid fa-circle-check header__advantages-card-icon"
+              ></i>
+              <h3 class="header__advantages-card-title">
+                Capacitación profesional
+              </h3>
             </div>
           </div>
         </div>
@@ -643,43 +698,75 @@
           </div>
         </section>
       </main>
+
       <footer class="footer">
         <div class="footer__content">
-          <img
-            src="./images/logo_fn.png"
-            alt="logo coffeeshop light"
-            class="footer__logo"
-          />
-          <div class="footer__circle"></div>
-          <div class="footer__social">
-            <h3 class="footer__social-heading">Redes sociales</h3>
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                <a href="#" class="footer__social-link">
-                  <img
-                    src="./images/facebook_white.svg"
-                    alt="logo facebook"
-                    class="footer__social-icon"
-                  />
-                  Facebook
-                </a>
-              </li>
-              <li class="footer__list-item">
-                <a href="#" class="footer__social-link">
-                  <img
-                    src="./images/instagram_white.svg"
-                    alt="logo instagram"
-                    class="footer__social-icon"
-                  />
-                  Instagram
-                </a>
-              </li>
+          <div>
+            <img
+              src="./images/logo_fn.png"
+              alt="logo coffeeshop light"
+              class="footer__logo"
+            />
+            <h3 class="footer__description">
+              Geoce Capacitación y Servicios Geológicos
+            </h3>
+            <p>📧 geoce.capacitacion@gmail.com</p>
+            <p>📞 +593 987 251 466</p>
+            <p>📍 Quito, Ecuador</p>
+          </div>
+
+          <div class="footer__column">
+            <h3 class="footer__column-title">Servicios</h3>
+            <ul>
+              <li><a href="#logueo">Logueo</a></li>
+              <li><a href="#modelamiento">Modelamiento</a></li>
+              <li><a href="#estimacion">Estimación</a></li>
             </ul>
           </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">Capacitaciones</h3>
+            <ul>
+              <li><a href="#estimacion">Geoquímica</a></li>
+              <li><a href="#planeamiento__minero">Planeamiento Minero</a></li>
+              <li><a href="#cursos">Cursos</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-title">Empresa</h3>
+            <ul>
+              <li><a href="#about-us">Sobre Nosotros</a></li>
+              <li><a href="#nuestros__clientes">Nuestros Clientes</a></li>
+              <li><a href="#contactos">Contactos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+
+            <a href="#" class="footer__social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span>Facebook</span>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="#" class="footer__social-link">
+              <i class="fa-brands fa-youtube"></i>
+              <span>YouTube</span>
+            </a>
+          </div>
         </div>
-        <p class="footer__copyright">
-          © 2024 Geoce Capacitación y Servicios Geológicos
-        </p>
+        <div class="footer__bottom">
+          <p>© 2026 Geoce Capacitación y Servicios Geológicos</p>
+        </div>
       </footer>
     </div>
   </body>

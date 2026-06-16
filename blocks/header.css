@@ -45,10 +45,10 @@
 }
 
 .header__card {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(155, 154, 154, 0.95);
   padding: 30px 20px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -56,5 +56,189 @@
 
 .header__card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background: rgba(10, 10, 10, 0.22);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.header__card-title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #d4af6a;
+}
+
+.header__card-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-top: 12px;
+  background: #d4af6a;
+  border-radius: 10px;
+}
+
+.header__card-paragraph {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.header__card-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #d4af6a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.header__card-link:hover {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.header__card-link:hover {
+  letter-spacing: 1px;
+}
+
+.header__about-us {
+  max-width: 800px;
+  text-align: center;
+  margin: 40px auto;
+  background: rgba(155, 154, 154, 0.95);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header__about-us:hover {
+  transform: translateY(-8px);
+  background: rgba(10, 10, 10, 0.22);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.header__about-us-title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #d4af6a;
+}
+
+.header__about-us-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 12px;
+  background: #d4af6a;
+  border-radius: 10px;
+}
+
+.header__about-us-paragraph {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.header__advantages {
+  max-width: 1200px;
+  text-align: center;
+  margin: 40px auto;
+  /*background: rgba(155, 154, 154, 0.95);*/
+  padding: 30px 20px;
+  border-radius: 15px;
+  border-left: 5px solid #d4af6a;
+  border-top: 1px solid rgba(212, 175, 106, 0.25);
+  border-right: 1px solid rgba(212, 175, 106, 0.25);
+  border-bottom: 1px solid rgba(212, 175, 106, 0.25);
+  box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header__advantages:hover {
+  transform: translateY(-8px);
+  background: rgba(10, 10, 10, 0.22);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.header__advantages-title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #d4af6a;
+}
+
+.header__advantages-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 12px;
+  background: #d4af6a;
+  border-radius: 10px;
+}
+
+.header__advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-content: center;
+  gap: 25px;
+  margin: 60px 0 60px;
+}
+
+.header__advantages-card {
+  background: rgba(155, 154, 154, 0.95);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.header__advantages-card:hover {
+  transform: translateY(-8px);
+  background: rgba(10, 10, 10, 0.22);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.header__advantages-card-icon {
+  color: #d4af6a;
+}
+
+.header__advantages-card-title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
 }
