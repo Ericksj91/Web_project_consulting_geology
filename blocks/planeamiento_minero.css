@@ -1,23 +1,21 @@
-.modelamiento {
+.planeamiento__minero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../images/fondo_modelamiento.png");
+  background: url("../images/fondo_planeamiento_minero.png");
   background-size: cover;
   background-position: center;
   gap: 40px;
 }
 
-.modelamiento__item {
+.planeamiento__minero__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
 
-.modelamiento__content {
+.planeamiento__minero__content {
   max-width: 600px;
   padding: 35px;
   border-radius: 20px;
@@ -29,13 +27,13 @@
   transition: all 0.3s ease;
 }
 
-.modelamiento__content:hover {
+.planeamiento__minero__content:hover {
   transform: translateY(-5px);
-  background: rgba(0, 0, 0, 0.22);
-  box-shadow: 0 10px 25px rgba(18, 18, 18, 0.25);
+  background: rgba(54, 54, 54, 0.22);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
-.modelamiento__title {
+.planeamiento__minero__title {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-style: bold;
@@ -45,7 +43,7 @@
   color: #d4af6a;
 }
 
-.modelamiento__title::after {
+.planeamiento__minero__title::after {
   content: "";
   display: block;
   width: 80px;
@@ -55,16 +53,16 @@
   border-radius: 10px;
 }
 
-.modelamiento__paragraph {
+.planeamiento__minero__paragraph {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
-  color: whitesmoke;
+  color: white;
 }
 
-.modelamiento__images {
+.planeamiento__minero__images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -73,11 +71,7 @@
   padding-top: 100px;
 }
 
-.modelamiento__images img:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
-}
-
-.modelamiento__images img {
+.planeamiento__minero__images img {
   width: 220px;
   height: 200px;
   border-radius: 10px;
@@ -85,25 +79,29 @@
   object-fit: cover;
 }
 
-.modelamiento__videos {
+.planeamiento__minero__images img:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.planeamiento__minero__videos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: 0 0 80px;
   max-width: 2200px;
 }
 
-.modelamiento__videos iframe:hover {
+.planeamiento__minero__videos iframe:hover {
   box-shadow: 0 0 20px rgba(201, 168, 106, 0.8);
 }
 
-.modelamiento__videos iframe {
+.planeamiento__minero__videos iframe {
   width: 100%;
   border: none;
   border-radius: 10px;
 }
 
-.modelamiento__separador {
+.planeamiento__minero__separador {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -111,15 +109,15 @@
   width: 100%;
 }
 
-.modelamiento__separador::before,
-.modelamiento__separador::after {
+.planeamiento__minero__separador::before,
+.planeamiento__minero__separador::after {
   content: "";
   flex: 1;
   height: 1px;
   background-color: #c9a86a;
 }
 
-.modelamiento__separador span {
+.planeamiento__minero__separador span {
   color: #c9a86a;
   font-size: 18px;
   font-weight: 600;

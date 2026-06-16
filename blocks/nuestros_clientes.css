@@ -1,0 +1,54 @@
+.nuestros__clientes {
+  padding: 40px 30px;
+  text-align: center;
+  background: linear-gradient(180deg, #3a3b3e 0%, #b4becf 100%);
+}
+
+.nuestros__clientes__title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.nuestros__clientes__paragraph {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+  color: whitesmoke;
+}
+
+.nuestros__clientes__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.nuestros__clientes__card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.nuestros__clientes__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.nuestros__clientes__card-logo {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.nuestros__clientes__card-title {
+  margin-bottom: 10px;
+}
+
+.nuestros__clientes__card-info {
+  color: #555;
+}
