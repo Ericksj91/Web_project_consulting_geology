@@ -5,10 +5,12 @@
   /*height: 100vh;*/
   /*min-height: 720px;*/
   /*max-height: 800px;*/
+}
+.header__description {
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("../images/fondo_inicio.png");
-  background-position: center;
+  background-position: 70% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,14 +42,18 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
   justify-content: center;
-  gap: 25px;
-  margin: 60px 0 60px;
+  margin: 30px 0;
+  gap: 15px;
 }
 
 .header__card {
   background: rgba(155, 154, 154, 0.95);
   padding: 30px 20px;
   border-radius: 15px;
+  border-left: 3px solid rgba(212, 175, 106, 0.25);
+  border-top: 3px solid rgba(212, 175, 106, 0.25);
+  border-right: 3px solid rgba(212, 175, 106, 0.25);
+  border-bottom: 3px solid rgba(212, 175, 106, 0.25);
   box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
   transition:
     transform 0.3s ease,
@@ -106,9 +112,6 @@
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
-}
-
-.header__card-link:hover {
   letter-spacing: 1px;
 }
 
@@ -119,6 +122,10 @@
   background: rgba(155, 154, 154, 0.95);
   padding: 30px 20px;
   border-radius: 15px;
+  border-left: 5px solid #d4af6a;
+  border-top: 2px solid rgba(212, 175, 106, 0.25);
+  border-right: 2px solid rgba(212, 175, 106, 0.25);
+  border-bottom: 2px solid rgba(212, 175, 106, 0.25);
   box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
   transition:
     transform 0.3s ease,
@@ -164,7 +171,6 @@
 .header__advantages {
   max-width: 1200px;
   text-align: center;
-  margin: 40px auto;
   /*background: rgba(155, 154, 154, 0.95);*/
   padding: 30px 20px;
   border-radius: 15px;
@@ -176,6 +182,8 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  margin: 20px auto;
+  padding: 20px;
 }
 
 .header__advantages:hover {
@@ -206,7 +214,7 @@
 
 .header__advantages-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 25px;
   justify-content: center;
   gap: 25px;
@@ -215,8 +223,12 @@
 
 .header__advantages-card {
   background: rgba(155, 154, 154, 0.95);
-  padding: 30px 20px;
+  padding: 15px 10px;
   border-radius: 15px;
+  border-left: 3px solid rgba(212, 175, 106, 0.25);
+  border-top: 3px solid rgba(212, 175, 106, 0.25);
+  border-right: 3px solid rgba(212, 175, 106, 0.25);
+  border-bottom: 3px solid rgba(212, 175, 106, 0.25);
   box-shadow: 0 5px 15px rgba(68, 68, 68, 0.1);
   transition:
     transform 0.3s ease,
