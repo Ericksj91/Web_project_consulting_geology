@@ -90,3 +90,80 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+  .logueo {
+    padding: 40px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .logueo__item {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .logueo__content {
+    max-width: 90%;
+  }
+
+  .logueo__images {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logueo__images img {
+    width: 220px;
+    height: 180px;
+  }
+
+  .logueo__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logueo {
+    padding: 20px;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .logueo__title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .logueo__item {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .logueo__content {
+    max-width: 460px;
+    padding: 20px;
+  }
+
+  .logueo__subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .logueo__paragraph {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .logueo__images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logueo__images img {
+    width: 100%;
+    max-width: 320px;
+    max-height: 250px;
+  }
+}

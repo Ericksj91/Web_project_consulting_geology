@@ -5,7 +5,7 @@
 }
 
 .contactos__title {
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-bottom: 20px;
   color: white;
 }
@@ -41,7 +41,7 @@
 }
 
 .contactos__card-icon {
-  font-size: 2rem;
+  font-size: 32px;
   margin-bottom: 15px;
 }
 
@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1rem;
+  font-size: 16px;
   transition: all 0.3s ease;
 }
 
@@ -91,5 +91,75 @@
 }
 
 .contactos__action-button i {
-  font-size: 1.1rem;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .contactos {
+    padding: 30px 20px;
+  }
+
+  .contactos__title {
+    font-size: 35px;
+  }
+
+  .contactos__grid {
+    gap: 20px;
+  }
+
+  .contactos__card {
+    padding: 25px 15px;
+  }
+
+  .contactos__action-buttons {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contactos {
+    padding: 20px 15px;
+  }
+
+  .contactos__title {
+    font-size: 29px;
+  }
+
+  .contactos__paragraph {
+    font-size: 14px;
+    margin-bottom: 30px;
+    max-width: 460px;
+  }
+
+  .contactos__grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 40px;
+    justify-items: center;
+  }
+
+  .contactos__card {
+    padding: 20px 15px;
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .contactos__card-icon {
+    font-size: 27px;
+  }
+
+  .contactos__action-title {
+    font-size: 19px;
+  }
+
+  .contactos__action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactos__action-button {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+  }
 }

@@ -30,6 +30,9 @@
             alt="logo geoce consulting"
             class="nav__logo"
           />
+          <button class="nav__toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#inicio">Inicio</a>
@@ -130,9 +133,14 @@
               <a href="#cursos" class="header__card-link"> Explorar → </a>
             </div>
           </div>
-          <div class="header__about-us" id="about-us">
-            <h2 class="header__about-us-title">Sobre Nosotros</h2>
-            <p class="header__about-us-paragraph">
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="about" id="about-us">
+          <div class="about__info">
+            <h2 class="about__info-title">Sobre Nosotros</h2>
+            <p class="about__info-paragraph">
               Geoce Capacitación y Servicios Geológicos es una empresa dedicada
               a proporcionar soluciones geológicas de alta calidad en Ecuador.
               Nuestro equipo de expertos trabaja con excelencia para ofrecer
@@ -141,54 +149,53 @@
             </p>
           </div>
 
-          <div class="header__advantages">
-            <h2 class="header__advantages-title">¿Por qué Geoce?</h2>
-            <div class="header__advantages-grid">
-              <div class="header__advantages-card">
+          <div class="about__advantages">
+            <h2 class="about__advantages-title">¿Por qué Geoce?</h2>
+            <div class="about__advantages-grid">
+              <div class="about__advantages-card">
                 <i
-                  class="fa-solid fa-circle-check header__advantages-card-icon"
+                  class="fa-solid fa-circle-check about__advantages-card-icon"
                 ></i>
-                <h3 class="header__advantages-card-title">
+                <h3 class="about__advantages-card-title">
                   Experiencia en exploración minera
                 </h3>
               </div>
-              <div class="header__advantages-card">
+              <div class="about__advantages-card">
                 <i
-                  class="fa-solid fa-circle-check header__advantages-card-icon"
+                  class="fa-solid fa-circle-check about__advantages-card-icon"
                 ></i>
-                <h3 class="header__advantages-card-title">
+                <h3 class="about__advantages-card-title">
                   Personal especializado
                 </h3>
               </div>
-              <div class="header__advantages-card">
+              <div class="about__advantages-card">
                 <i
-                  class="fa-solid fa-circle-check header__advantages-card-icon"
+                  class="fa-solid fa-circle-check about__advantages-card-icon"
                 ></i>
-                <h3 class="header__advantages-card-title">
+                <h3 class="about__advantages-card-title">
                   Software geológico avanzado
                 </h3>
               </div>
-              <div class="header__advantages-card">
+              <div class="about__advantages-card">
                 <i
-                  class="fa-solid fa-circle-check header__advantages-card-icon"
+                  class="fa-solid fa-circle-check about__advantages-card-icon"
                 ></i>
-                <h3 class="header__advantages-card-title">
+                <h3 class="about__advantages-card-title">
                   Informes técnicos confiables
                 </h3>
               </div>
-              <div class="header__advantages-card">
+              <div class="about__advantages-card">
                 <i
-                  class="fa-solid fa-circle-check header__advantages-card-icon"
+                  class="fa-solid fa-circle-check about__advantages-card-icon"
                 ></i>
-                <h3 class="header__advantages-card-title">
+                <h3 class="about__advantages-card-title">
                   Capacitación profesional
                 </h3>
               </div>
             </div>
           </div>
-        </div>
-      </header>
-      <main class="content">
+        </section>
+
         <section class="logueo" id="logueo">
           <h2 class="logueo__title">LOGUEO</h2>
           <div class="logueo__item">
@@ -605,7 +612,7 @@
         </section>
         <section class="cursos" id="cursos">
           <h2 class="cursos__title">Cursos</h2>
-          <di class="cursos__grid">
+          <div class="cursos__grid">
             <div class="cursos__card">
               <div class="cursos__card-logo">
                 <img />
@@ -716,7 +723,7 @@
               <a href="#" class="cursos__card-link"> Explora el temario → </a>
               <a href="#" class="cursos__card-link"> Contrata el curso → </a>
             </div>
-          </di>
+          </div>
         </section>
 
         <section class="contactos" id="contactos">
