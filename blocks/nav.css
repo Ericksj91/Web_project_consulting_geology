@@ -91,8 +91,9 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 80px;
+  top: 60px;
   right: 0;
+  left: 264px;
   background: rgba(235, 232, 232, 0.95);
   width: 100%;
   padding: 20px;
@@ -126,5 +127,11 @@
 
   .nav__links {
     display: none;
+    left: 130px;
+  }
+
+  .nav__links.nav__links--show {
+    display: flex;
+    max-width: 400px;
   }
 }
