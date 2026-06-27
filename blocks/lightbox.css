@@ -54,7 +54,7 @@
 
 @media (max-width: 900px) {
   .lightbox__image {
-    max-width: 450px;
+    max-width: 375px;
     max-height: 450px;
   }
 }
