@@ -52,3 +52,53 @@ lightbox.addEventListener("click", (e) => {
     closeImage();
   }
 });
+
+//activacion de botones
+//funcion para abrir el enlace de WhatsApp en una nueva pestaña
+function openWhatsApp(message) {
+  const url = `https://wa.me/593987251466?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
+//boton navbar agenda tu consulta
+const buttonConsulting = document.querySelector(".nav__button");
+
+buttonConsulting.addEventListener("click", () => {
+  openWhatsApp("Hola, me gustaría agendar una consulta.");
+});
+
+//botones de los cursos
+const cursosLinks = document.querySelectorAll("[data-action='WhatsApp']");
+
+cursosLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const courseName = link.dataset.course;
+    openWhatsApp(`Hola, estoy interesado en el curso de ${courseName}`);
+  });
+});
+
+//botones de contacto
+const actionButtons = document.querySelectorAll(".contactos__action-button");
+
+actionButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const action = button.dataset.action;
+    switch (action) {
+      case "email":
+        window.location.href = "mailto:geoce.capacitacion@gmail.com";
+        break;
+      case "whatsapp":
+        openWhatsApp("Hola, me gustaría agendar una consulta.");
+        break;
+      case "phone":
+        window.location.href = "tel:+593987251466";
+        break;
+      case "location":
+        window.open(
+          "https://maps.google.com/?q=Av.+Principal+123,+Quito,+Ecuador",
+          "_blank",
+        );
+        break;
+    }
+  });
+});
