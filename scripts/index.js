@@ -95,7 +95,7 @@ actionButtons.forEach((button) => {
         break;
       case "location":
         window.open(
-          "https://maps.google.com/?q=Av.+Principal+123,+Quito,+Ecuador",
+          "https://www.google.com/maps/search/?api=1&query=La+Concepción,+Quito,+Ecuador",
           "_blank",
         );
         break;
