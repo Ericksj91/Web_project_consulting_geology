@@ -26,9 +26,13 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo_geoce_gray.png"
+            width="200"
+            height="80"
+            src="./images/logo_geoce_gray.webp"
             alt="logo geoce consulting"
             class="nav__logo"
+            loading="lazy"
+            decoding="async"
           />
           <button class="nav__toggle">
             <i class="fa-solid fa-bars"></i>
@@ -66,7 +70,12 @@
               >
             </li>
             <li>
-              <button class="nav__button">Agenda tu consulta</button>
+              <button
+                class="nav__button"
+                aria-label="Abrir WhatsApp para agendar una consulta"
+              >
+                Agenda tu consulta
+              </button>
             </li>
           </ul>
         </nav>
@@ -359,70 +368,67 @@
             <span>VIDEOS DESTACADOS</span>
           </div>
           <div class="modelamiento__videos">
-            <iframe
-              src="https://www.youtube.com/embed/CWLyjikX5AU?si=olkxeUHb2GgGKwn9"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/thQHAmziKO0?si=BJRn6U4iHUbmBFYr"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/OlLavLY_lJ4?si=82ZxtjSKF1gTPDkj"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/ISFgyr5i02Y?si=8NWOsH5pyAlgPPMJ"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div class="youtube" data-video="CWLyjikX5AU">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/CWLyjikX5AU/hqdefault.jpg"
+                alt="Video de modelamiento geológico"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+            <div class="youtube" data-video="thQHAmziKO0">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/thQHAmziKO0/hqdefault.jpg"
+                alt="Video de modelamiento geológico"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+            <div class="youtube" data-video="OlLavLY_lJ4">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/OlLavLY_lJ4/hqdefault.jpg"
+                alt="Video de modelamiento geológico"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+
+            <div class="youtube" data-video="ISFgyr5i02Y">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/ISFgyr5i02Y/hqdefault.jpg"
+                alt="Video de modelamiento geológico"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
           </div>
         </section>
 
@@ -500,38 +506,36 @@
             <span>VIDEOS DESTACADOS</span>
           </div>
           <div class="estimacion__videos">
-            <iframe
-              src="https://www.youtube.com/embed/o50YU5ukCOQ?si=JnaYE5Uf2KxvX4hb"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/cZF2bQRfHlA?si=XMKDRsS5tw8MxgBG"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div class="youtube" data-video="o50YU5ukCOQ">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/o50YU5ukCOQ/hqdefault.jpg"
+                alt="Video de estimación"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+            <div class="youtube" data-video="cZF2bQRfHlA">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/cZF2bQRfHlA/hqdefault.jpg"
+                alt="Video de estimación"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
           </div>
         </section>
 
@@ -609,38 +613,36 @@
             <span>VIDEOS DESTACADOS</span>
           </div>
           <div class="geoquimica__videos">
-            <iframe
-              src="https://www.youtube.com/embed/X32uUExawwU?si=R6hQuHny-YBx2YbU"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/q4NIh9yLFp4?si=0_HamQXDXaWDdew7"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div class="youtube" data-video="X32uUExawwU">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/X32uUExawwU/hqdefault.jpg"
+                alt="Video de geoquímica"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+            <div class="youtube" data-video="q4NIh9yLFp4">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/q4NIh9yLFp4/hqdefault.jpg"
+                alt="Video de geoquímica"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
           </div>
         </section>
 
@@ -718,38 +720,36 @@
             <span>VIDEOS DESTACADOS</span>
           </div>
           <div class="planeamiento__minero__videos">
-            <iframe
-              src="https://www.youtube.com/embed/j7d9Jt5AkaA?si=1IwXPtvjBcImzhNc"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              src="https://www.youtube.com/embed/p1sZ_OHp8OQ?si=-zWPBZDHhPxXjHXr"
-              title="YouTube video player"
-              loading="lazy"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div class="youtube" data-video="j7d9Jt5AkaA">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/j7d9Jt5AkaA/hqdefault.jpg"
+                alt="Video de geoquímica"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
+            <div class="youtube" data-video="p1sZ_OHp8OQ">
+              <img
+                width="300"
+                height="200"
+                class="youtube__thumbnail"
+                src="https://img.youtube.com/vi/p1sZ_OHp8OQ/hqdefault.jpg"
+                alt="Video de geoquímica"
+              />
+              <button
+                class="youtube__play"
+                aria-label="Abrir el video de youtube"
+              >
+                ▶
+              </button>
+            </div>
           </div>
         </section>
         <section class="cursos" id="cursos">
@@ -1059,17 +1059,33 @@
               Agenda tu consulta personalizada
             </h3>
             <div class="contactos__action-buttons">
-              <button class="contactos__action-button" data-action="email">
+              <button
+                class="contactos__action-button"
+                data-action="email"
+                aria-label="Abrir correo electrónico"
+              >
                 <i class="fa-solid fa-envelope"></i
                 ><span>Envíanos un correo</span>
               </button>
-              <button class="contactos__action-button" data-action="whatsapp">
+              <button
+                class="contactos__action-button"
+                data-action="whatsapp"
+                aria-label="Abrir WhatsApp"
+              >
                 <i class="fa-brands fa-whatsapp"></i>WhatsApp
               </button>
-              <button class="contactos__action-button" data-action="phone">
+              <button
+                class="contactos__action-button"
+                data-action="phone"
+                aria-label="Abrir marcador telefónico"
+              >
                 <i class="fa-solid fa-phone"></i>Llámanos
               </button>
-              <button class="contactos__action-button" data-action="location">
+              <button
+                class="contactos__action-button"
+                data-action="location"
+                aria-label="Abrir ubicación en Google Maps"
+              >
                 <i class="fa-solid fa-location-dot"></i>Ver ubicación
               </button>
             </div>
@@ -1111,6 +1127,21 @@
               </div>
               <h3 class="nuestros__clientes__card-title">IMEXbiz</h3>
             </div>
+            <div class="nuestros__clientes__card">
+              <div class="nuestros__clientes__card-logo">
+                <img
+                  width="400"
+                  height="200"
+                  src="./images/nuestros_clientes_images/colorado_mining.webp"
+                  alt="Logo Colorado Mining"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <h3 class="nuestros__clientes__card-title">
+                Colorado Mining S.A.
+              </h3>
+            </div>
           </div>
         </section>
       </main>
@@ -1119,9 +1150,13 @@
         <div class="footer__content">
           <div>
             <img
-              src="./images/logo.png"
+              width="120"
+              height="80"
+              src="./images/logo.webp"
               alt="logo coffeeshop light"
               class="footer__logo"
+              loading="lazy"
+              decoding="async"
             />
             <h3 class="footer__description">
               Geoce Capacitación y Servicios Geológicos
@@ -1192,7 +1227,9 @@
     </div>
     <div class="lightbox">
       <div class="lightbox__content">
-        <button class="lightbox__close">X</button>
+        <button class="lightbox__close" aria-label="Cerrar imagen ampliada">
+          X
+        </button>
         <img class="lightbox__image" src="" alt="imagen ampliada" />
       </div>
     </div>

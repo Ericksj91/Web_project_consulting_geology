@@ -1,0 +1,39 @@
+.youtube {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 300px;
+  max-height: 200px;
+  margin: 10px;
+  border: 2px solid #c49a3a;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(196, 154, 58, 0.25);
+}
+
+.youtube__thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.youtube__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 70px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
