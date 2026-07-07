@@ -4,7 +4,7 @@
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("../images/fondo_inicio.png");
+    url("../images/fondo_inicio.webp");
 }
 .about__info {
   max-width: 800px;

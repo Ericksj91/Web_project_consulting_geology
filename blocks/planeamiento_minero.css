@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../images/fondo_planeamiento_minero.png");
+  background: url("../images/fondo_planeamiento_minero.webp");
   background-size: cover;
   background-position: center;
   gap: 40px;

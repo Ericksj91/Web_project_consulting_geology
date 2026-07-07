@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../images/fondo_estimación.png");
+  background: url("../images/fondo_estimación.webp");
   background-size: cover;
   background-position: center;
   gap: 40px;

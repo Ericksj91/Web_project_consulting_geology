@@ -9,7 +9,7 @@
 .header__description {
   background:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("../images/fondo_inicio.png");
+    url("../images/fondo_inicio.webp");
   background-position: 70% center;
   background-repeat: no-repeat;
   background-size: cover;
