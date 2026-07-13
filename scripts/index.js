@@ -6,16 +6,20 @@ const agendaButton = document.querySelector(".nav__button");
 
 buttonMenu.addEventListener("click", () => {
   menu.classList.toggle("nav__links--show");
+  const expanded = menu.classList.contains("nav__links--show");
+  buttonMenu.setAttribute("aria-expanded", expanded ? "true" : "false");
 });
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
     menu.classList.remove("nav__links--show");
+    buttonMenu.setAttribute("aria-expanded", "false");
   });
 });
 
 agendaButton.addEventListener("click", () => {
   menu.classList.remove("nav__links--show");
+  buttonMenu.setAttribute("aria-expanded", "false");
 });
 
 //ampliar imagenes, cerrar imgenes
@@ -37,6 +41,7 @@ images.forEach((image) => {
 
 function closeImage() {
   lightbox.classList.remove("lightbox--show");
+  lightboxImage.src = "";
 }
 
 lightboxClose.addEventListener("click", closeImage);
@@ -60,9 +65,8 @@ function openWhatsApp(message) {
   window.open(url, "_blank");
 }
 //boton navbar agenda tu consulta
-const buttonConsulting = document.querySelector(".nav__button");
 
-buttonConsulting.addEventListener("click", () => {
+agendaButton.addEventListener("click", () => {
   openWhatsApp("Hola, me gustaría agendar una consulta.");
 });
 
@@ -114,7 +118,6 @@ videosYoutube.forEach((video) => {
     iframe.allow =
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
     iframe.allowFullscreen = true;
-    video.innerHTML = "";
-    video.appendChild(iframe);
+    video.replaceChildren(iframe);
   });
 });
