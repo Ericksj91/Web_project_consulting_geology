@@ -45,6 +45,17 @@
   margin-bottom: 20px;
   color: #d4af6a;
 }
+
+.logueo__title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: 12px;
+  background: #d4af6a;
+  border-radius: 10px;
+}
+
 .logueo__subtitle {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
@@ -58,7 +69,7 @@
 .logueo__subtitle::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 100%;
   height: 3px;
   margin-top: 12px;
   background: #d4af6a;
@@ -98,6 +109,18 @@
     margin: auto;
   }
 
+  .logueo__title {
+    text-align: center;
+  }
+
+  .logueo__title::after {
+    width: 900px;
+  }
+
+  .logueo__subtitle::after {
+    width: 100%;
+  }
+
   .logueo__item {
     flex-direction: column;
     text-align: center;
@@ -135,6 +158,14 @@
     text-align: center;
   }
 
+  .logueo__title::after {
+    width: 400px;
+  }
+
+  .logueo__subtitle::after {
+    width: 400px;
+  }
+
   .logueo__item {
     flex-direction: column;
     gap: 20px;
@@ -165,5 +196,7 @@
     width: 100%;
     max-width: 320px;
     max-height: 250px;
+    width: 240px;
+    height: 220px;
   }
 }

@@ -19,7 +19,7 @@
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 52px;
+  font-size: 60px;
   line-height: 1.1;
   text-align: center;
   color: white;
@@ -29,7 +29,7 @@
   max-width: 800px;
   margin: 20px auto 0;
   font-family: "Inter", "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.6;
   text-align: center;
   color: white;
@@ -47,7 +47,7 @@
 .header__content::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 130%;
   height: 3px;
   margin-top: 12px;
   background: #d4af6a;
@@ -95,7 +95,7 @@
 .header__card-title::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 100%;
   height: 3px;
   margin-top: 12px;
   background: #d4af6a;
@@ -172,11 +172,11 @@
   }
 
   .header__description-title {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .header__description-paragraph {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .header__grid {

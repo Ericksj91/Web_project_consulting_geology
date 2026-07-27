@@ -46,7 +46,7 @@
 .estimacion__title::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 100%;
   height: 3px;
   margin-top: 12px;
   background: #d4af6a;
@@ -132,6 +132,10 @@
     margin: auto;
   }
 
+  .estimacion__title::after {
+    width: 100%;
+  }
+
   .estimacion__item {
     flex-direction: column;
     text-align: center;
@@ -175,6 +179,10 @@
   .estimacion__title {
     font-size: 28px;
     text-align: center;
+  }
+
+  .estimacion__title::after {
+    width: 400px;
   }
 
   .estimacion__item {
