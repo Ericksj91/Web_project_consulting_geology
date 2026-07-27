@@ -171,6 +171,10 @@
     /*margin: 0 95px;*/
   }
 
+  .header__content::after {
+    width: 100%;
+  }
+
   .header__description-title {
     font-size: 21px;
   }
