@@ -163,7 +163,7 @@
   }
 
   .logueo__subtitle::after {
-    width: 400px;
+    width: 100%;
   }
 
   .logueo__item {
@@ -173,7 +173,7 @@
   }
 
   .logueo__content {
-    max-width: 460px;
+    max-width: 380px;
     padding: 20px;
   }
 

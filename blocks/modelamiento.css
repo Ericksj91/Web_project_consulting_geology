@@ -183,10 +183,6 @@
     text-align: center;
   }
 
-  .modelamiento__title::after {
-    width: 420px;
-  }
-
   .modelamiento__item {
     flex-direction: column;
     gap: 20px;
@@ -194,7 +190,7 @@
   }
 
   .modelamiento__content {
-    max-width: 460px;
+    max-width: 380px;
     padding: 20px;
   }
 

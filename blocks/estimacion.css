@@ -181,10 +181,6 @@
     text-align: center;
   }
 
-  .estimacion__title::after {
-    width: 400px;
-  }
-
   .estimacion__item {
     flex-direction: column;
     gap: 20px;
@@ -192,7 +188,7 @@
   }
 
   .estimacion__content {
-    max-width: 460px;
+    max-width: 380px;
     padding: 20px;
   }
 

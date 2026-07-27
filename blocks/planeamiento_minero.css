@@ -181,9 +181,6 @@
     text-align: center;
   }
 
-  .planeamiento-minero__title::after {
-    width: 400px;
-  }
   .planeamiento-minero__item {
     flex-direction: column;
     gap: 20px;
@@ -191,7 +188,7 @@
   }
 
   .planeamiento-minero__content {
-    max-width: 460px;
+    max-width: 380px;
     padding: 20px;
   }
 
